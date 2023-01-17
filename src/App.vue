@@ -69,7 +69,7 @@ export default {
 
         async fetchUsers() {
             try {
-                const response = await axios.get("http://localhost:8000/api/", {
+                const response = await axios.get("https://hugenewatom.github.io/data.json", {
 
                 });
                 this.totalPages = Math.ceil(response.data / this.limit)
