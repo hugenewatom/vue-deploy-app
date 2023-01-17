@@ -17,6 +17,7 @@
             :items="users"
             :search="search"
             calculate-widths
+            fixed-header
 
         >
             <template v-slot:item="{item, index}">
